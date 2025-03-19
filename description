@@ -2,7 +2,7 @@
 
 --> Problem Statement
 
-The goal of this project is to build a machine learning model to predict customer churn 
+- The goal of this project is to build a machine learning model to predict customer churn 
 for a subscription-based service. By analyzing historical data, the model identifies customers at risk of discontinuing their services.
 These insights will help businesses implement retention strategies, reduce churn, and improve customer satisfaction.
 
@@ -12,10 +12,10 @@ Predict whether a customer will churn (exit) based on historical data.
 Perform data preprocessing, including handling missing values and encoding categorical data.
   
 Train and evaluate multiple machine learning models including:
-Random Forest Classifier
-Logistic Regression
-Support Vector Machine (SVM)
-XGBoost Classifier
+- Random Forest Classifier
+- Logistic Regression
+- Support Vector Machine (SVM)
+- XGBoost Classifier
 
 Analyze model performance using accuracy, classification reports, and confusion matrices.
 Visualize and interpret feature importance using Random Forest to understand key churn factors.
@@ -40,11 +40,11 @@ Exited: Whether the customer has exited (1 = Yes, 0 = No)
 
 --> Tools and Libraries Used
 
-Python for implementation
-Pandas and NumPy for data manipulation
-Seaborn and Matplotlib for data visualization
-Scikit-Learn for preprocessing, model training, and evaluation
-XGBoost for gradient boosting model training
+- Python for implementation
+- Pandas and NumPy for data manipulation
+- Seaborn and Matplotlib for data visualization
+- Scikit-Learn for preprocessing, model training, and evaluation
+- XGBoost for gradient boosting model training
 
 --> Project Steps
 
@@ -58,7 +58,7 @@ XGBoost for gradient boosting model training
 8. Evaluation: Evaluate models using accuracy, classification reports, and confusion matrices.
 9. Feature Importance: Visualize important features using Random Forest.
 
---> Results
-
-The Random Forest Classifier achieved the highest accuracy, making it the most effective model for customer churn prediction.
-Feature Importance analysis identified key factors contributing to customer churn.
+## 📊 Results and Insights
+- The **Random Forest Classifier** achieved the highest accuracy, making it the most effective model.
+- Key factors contributing to churn were identified using feature importance, such as credit score, number of products, and customer age.
+- Businesses can use these insights to reduce churn by targeting at-risk customers with personalized offers.
