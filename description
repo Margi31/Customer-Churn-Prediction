@@ -1,0 +1,64 @@
+📍Customer Churn Prediction
+
+--> Problem Statement
+
+The goal of this project is to build a machine learning model to predict customer churn 
+for a subscription-based service. By analyzing historical data, the model identifies customers at risk of discontinuing their services.
+These insights will help businesses implement retention strategies, reduce churn, and improve customer satisfaction.
+
+--> Goals and Objectives
+
+Predict whether a customer will churn (exit) based on historical data.
+Perform data preprocessing, including handling missing values and encoding categorical data.
+  
+Train and evaluate multiple machine learning models including:
+Random Forest Classifier
+Logistic Regression
+Support Vector Machine (SVM)
+XGBoost Classifier
+
+Analyze model performance using accuracy, classification reports, and confusion matrices.
+Visualize and interpret feature importance using Random Forest to understand key churn factors.
+
+--> Dataset Description
+
+The dataset used for this project is the Churn_Modelling.csv dataset, which contains customer information from a bank. The dataset includes the following columns:
+RowNumber: Unique identifier
+CustomerId: Customer's ID
+Surname: Customer's surname
+CreditScore: Credit score of the customer
+Geography: Country of the customer
+Gender: Gender of the customer
+Age: Age of the customer
+Tenure: Number of years the customer has been with the bank
+Balance: Bank account balance
+NumOfProducts: Number of products held by the customer
+HasCrCard: Whether the customer has a credit card (1 = Yes, 0 = No)
+IsActiveMember: Whether the customer is an active bank member (1 = Yes, 0 = No)
+EstimatedSalary: Estimated annual salary
+Exited: Whether the customer has exited (1 = Yes, 0 = No)
+
+--> Tools and Libraries Used
+
+Python for implementation
+Pandas and NumPy for data manipulation
+Seaborn and Matplotlib for data visualization
+Scikit-Learn for preprocessing, model training, and evaluation
+XGBoost for gradient boosting model training
+
+--> Project Steps
+
+1. Data Loading: Import the dataset using Pandas.
+2. Exploratory Data Analysis (EDA): Perform analysis to understand data distributions and detect missing values.
+3. Data Cleaning: Handle missing values using appropriate imputation methods.
+4. Feature Engineering: Encode categorical variables using Label Encoding.
+5. Data Splitting: Split the data into training and testing sets.
+6. Feature Scaling: Apply StandardScaler to normalize features.
+7. Model Training: Train four models - Random Forest, Logistic Regression, SVM, and XGBoost.
+8. Evaluation: Evaluate models using accuracy, classification reports, and confusion matrices.
+9. Feature Importance: Visualize important features using Random Forest.
+
+--> Results
+
+The Random Forest Classifier achieved the highest accuracy, making it the most effective model for customer churn prediction.
+Feature Importance analysis identified key factors contributing to customer churn.
